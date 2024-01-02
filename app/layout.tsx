@@ -18,8 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${sourceSansPro.className} h-full overflow-hidden`}>
-        <div className="relative h-full">{children}</div>
+      <body className={`${sourceSansPro.className} h-full md:overflow-hidden`}>
+        {children}
       </body>
     </html>
   );

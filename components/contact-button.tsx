@@ -5,7 +5,7 @@ export default function ContactButton() {
   return (
     <Link
       href={NAVIGATION_LINK["contact"] ?? ""}
-      className="border-primary hover:bg-primary block rounded-md border-2 px-8 py-2 text-lg font-semibold duration-300 ease-in-out hover:text-black"
+      className="block rounded-md border-2 border-primary px-8 py-1.5 text-lg font-semibold duration-300 ease-in-out hover:bg-primary hover:text-black"
     >
       Contact
     </Link>
