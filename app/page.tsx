@@ -98,7 +98,20 @@ export default function Home() {
           {/* ABOUT */}
           <Section>
             <div className="relative mx-auto w-[1440px] max-w-full px-4 py-[50px] md:py-0">
-              <div className="px-0 py-[100px] md:flex md:justify-between md:py-[200px] lg:py-0"></div>
+              <div className="px-0 py-[100px] md:flex md:justify-between md:py-[200px] lg:py-0">
+                <Image
+                  src={"/dark_cube2.png"}
+                  alt="dark cube"
+                  width={200}
+                  height={165}
+                />
+                <Image
+                  src={"/purple_romb2.png"}
+                  alt="dark cube"
+                  width={150}
+                  height={134}
+                />
+              </div>
             </div>
           </Section>
         </div>
