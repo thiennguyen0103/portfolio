@@ -1,4 +1,5 @@
 export const JOB_TITLE = "Full-Stack Developer";
+export const WELCOME_TITLE = "Hi, I'm Kira";
 
 export const NAVIGATION_LIST = [
   {

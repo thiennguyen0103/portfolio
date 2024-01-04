@@ -58,12 +58,15 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--primary);
   background: var(--background);
   margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
   line-height: 24px;
+  scroll-behavior: smooth;
 }
